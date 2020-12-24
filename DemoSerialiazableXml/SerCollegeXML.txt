@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.2" class="java.beans.XMLDecoder">
+ <object class="com.telusko.College">
+  <void property="students">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="com.telusko.Students">
+      <void property="name">
+       <string>sam</string>
+      </void>
+      <void property="rollno">
+       <int>123</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.telusko.Students">
+      <void property="name">
+       <string>john</string>
+      </void>
+      <void property="rollno">
+       <int>345</int>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
